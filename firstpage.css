@@ -44,3 +44,14 @@ a:hover {
     text-decoration: none;
     color: darkred
 }
+
+header ul li a {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: beige;
+}
+
+header ul li a:hover {
+     background: beige;
+     color: rgb(110, 58, 13);
+}
