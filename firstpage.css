@@ -59,3 +59,27 @@ header ul li a:hover {
      background: rgb(210, 200, 191);
      color: rgb(110, 58, 13);
 }
+
+section {
+    position: relative;
+    width: 60%;
+    height: 60vh;
+    padding: 100px;
+}
+
+#text {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    white-space: nowrap;
+    font-size: 7.5vw; 
+    z-index: 9;
+    justify-content: center;
+}
+
+section img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 100%;
+}
