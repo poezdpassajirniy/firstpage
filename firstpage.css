@@ -17,7 +17,7 @@ ul {
 }
 
 header {
-    background-color: rgba(62, 34, 11, 0.967);
+    background-color: rgba(205, 193, 183, 0.967);
     padding: 30px 80px;
     display: flex;
     justify-content: space-between;
@@ -26,60 +26,42 @@ header {
 
 }
 
-
-a {
-    text-decoration: none;
-    cursor: default;
-    color: white;
-}
-
-header .logo {
-    color: aliceblue;
-    font-weight: 600px;
-    text-decoration: none;
-    font-size: 2em;
-}
-
-a:hover {
-    text-decoration: none;
-    color: darkred
-}
-
 header ul li a {
     text-decoration: none;
     padding: 5px 10px;
-    color: rgb(255, 255, 255);
+    color: rgb(53, 29, 3);
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 header ul li a:hover {
-     background: rgb(210, 200, 191);
-     color: rgb(110, 58, 13);
+     background: rgb(84, 18, 3);
+     color: rgb(245, 242, 239);
 }
 
-section {
-    position:relative;
-    width: 100px;
-    height: 20px;
-    padding: 100px;
-}
 
-#text {
-    position:relative;
-    color: rgb(255, 255, 255);
-    white-space: nowrap;
-    font-size: 7.5vw; 
-    z-index: 9;
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px;
-    margin-left: 300px;
-}
 
-section img {
-    position:absolute;
-    top: 0;
+.img-block{
+     /*top: 0;
     left: 15px;
     width: 1442px;
     height: 737px;
+    margin: 0;*/
+    background-image:url(brewing.jpg);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    position: relative;
+    
 }
+
+.title {
+    position:absolute;
+    color: rgb(255, 255, 255);
+    white-space: nowrap;
+    font-size: 7.5vw; 
+    margin-top: 100px;
+    margin-left: 450px;
+}
+   
 
