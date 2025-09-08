@@ -53,34 +53,31 @@ header ul li a:hover {
     height: 100%;
 }
 
-.title {
-    color: rgb(255, 255, 255);
-    white-space: nowrap;
-    font-size: 7.5vw; 
-    top: 100%;
-    
-    
+.titles {
+    flex-direction: column;
+    display: flex;
+    align-items: center ;
+
 }
 
-.titles {
-    position: absolute;
-    z-index: 1;
+.title {
+    color: rgb(255, 255, 255);
+    font-size: 7.5vw;
+}
+
+.titles-layout {
+    width: 100%;
+    height: 100%;
     display: flex;
+    align-items: center;
     justify-content: center;
-    transform: translate(-50%, 200%);
-    left: 50%;
-    
-    
+    position: absolute;
 }
 
 .second-title {
     font-family: 'Times New Roman', Times, serif;
-    position:absolute;
     color: rgb(255, 255, 255);
     font-size: 6vw;
-    white-space: nowrap;
-    display: flex;
-    top: 100%;
 }
 
 .navigation {
@@ -96,28 +93,25 @@ header ul li a:hover {
 .catalog {
     background-color: rgba(205, 193, 183, 0.967) ;
     padding: 64px;
-
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 20px;
 }
 
-.cards-holder {
-    justify-content: space-between;
-    display: flex;
-    object-fit: contain;
-}
-
-.card1 {
-    width: 229px;
+ .card {
+    width: 228px;
     box-shadow: 10px 10px 40px 20px #44271157;
     border: 3px solid rgb(36, 20, 2);
     background-color: aliceblue;
-}
+ }
+
 
 .card-img {
     object-fit: contain;
 }
 
 .card-title {
-   
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
@@ -125,7 +119,6 @@ header ul li a:hover {
 }
 
 .weight {
-    
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
     font-size: 10px;
     padding: 65px 17px;
@@ -133,7 +126,6 @@ header ul li a:hover {
 }
 
 .price {
-    
     margin-right: 20px;
     font-family: Arial, sans-serif;  
     font-size: 20px;
@@ -154,18 +146,7 @@ header ul li a:hover {
     border: none;
 }
 
-.card2 {
-    width: 228px;
-    box-shadow: 10px 10px 40px 20px #44271157;
-    border: 3px solid rgb(36, 20, 2);
-    background-color: aliceblue;
-    
-}
 
-.cards-holder {
-    display: flex;
-    justify-content: space-between;
-    object-fit: contain;
-}
+
 
 
