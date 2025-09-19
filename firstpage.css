@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color:rgba(205, 193, 183, 0.967) ;
+    background-color:rgba(247, 234, 224, 0.967) ;
 }
 
 .preview {
@@ -25,6 +25,7 @@ body {
     
 
 }
+
 li {
     display: inline;
     margin-right: 30px;
@@ -38,7 +39,7 @@ ul {
 }
 
 header {
-    background-color: rgba(205, 193, 183, 0.967);
+    background-color:rgba(247, 234, 224, 0.967) ;
     padding: 30px 80px;
     display: flex;
     justify-content: space-between;
@@ -77,14 +78,16 @@ header ul li a:hover {
 .titles {
     flex-direction: column;
     display: flex;
-    align-items: center ;
+    align-items: center;
 
 }
 
 .title {
     color: rgb(255, 255, 255);
     font-size: 9vw;
+    font-size: 12vw;
 }
+
 
 .titles-layout {
     width: 100%;
@@ -93,6 +96,7 @@ header ul li a:hover {
     align-items: center;
     justify-content: center;
     position: absolute;
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .second-title {
@@ -112,12 +116,13 @@ header ul li a:hover {
 }
 
 .catalog {
-    background-color: rgba(205, 193, 183, 0.967)  ;
-    padding: 64px;
+    background-color:rgba(247, 234, 224, 0.967)  ;
+    padding: 100px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 20px;
+    
 }
 
  .card {
@@ -167,37 +172,125 @@ header ul li a:hover {
 .button {
     padding: 17px 42px ;
     width: 100%;
-    background-color: rgba(233, 221, 211, 0.967);
+    background-color:rgba(238, 229, 220, 0.967);
     color: #442711;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     border: none;
 }
 
+.button:hover {
+    background-color: rgba(233, 221, 211, 0.967);
+    font-size: 17px;
+}
+
 .logo-line {
-    background-color: rgba(205, 193, 183, 0.967);
-    height: 50vh;
+    background-color: rgba(247, 234, 224, 0.967) ;
     width: 100%;
-    
 }
 
 .logos {
     z-index: 1;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 80px;
+    display: flex;
+    flex-wrap: wrap;
     padding: 84px;
-    
+    justify-content: space-between;
 }
 
 .Bestsellers {
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     color: #442711;
 }
 
+.cafe-block {
+    display: flex;
+    background-color: rgba(91, 19, 18, 1);
+    align-items: center;
+    
+    
+}
 
+.cafe-info {
+  color: rgba(252, 242, 242, 1);
+  flex-direction: column;
+  flex: 1;
+  padding: 120px 60px;
+}
 
+.cafe-img {
+    width: 100vw;
+    height: 100%;
+    flex: 1;
+    object-fit: cover;
+}
+
+.info-cafe-btn {
+    background-color: rgba(91, 19, 18, 1) ;
+    border: 1px solid  rgba(252, 242, 242, 1);
+    color: rgba(252, 242, 242, 1);
+    padding: 22px 55px;
+    font-size: 20px;
+}
+
+.coffe-score {
+    width: 100%;
+    display: flex;
+    height: 815px;
+    justify-content: center;
+    position: relative;
+}
+
+.rating-cards {
+    display: flex;
+    width: 1164px;
+    position: absolute;
+    padding: 293px 139px;
+    justify-content: space-around;
+}
+
+.rating-card {
+    display: flex;
+    width: 221px;
+    height: 225px;
+    flex-direction: column;
+    
+}
+
+.rating-title {
+   font-size: 15px;
+   color: rgb(83, 43, 11);
+   text-align: center;
+}
+
+.discription {
+    text-align: center;
+    padding: 15px 0px 0px;
+}
+
+.little-logo {
+    flex: 1;
+    object-fit: none;
+    padding: 
+}
+
+.little-logo2 {
+    flex: 1;
+    object-fit: contain;
+    padding: 0px 83px; 
+}
+
+.rating-text {
+    flex-direction: column;
+    flex: 1;
+    
+}
+
+.little-logo3 {
+    padding: 0px 67px;
+    flex: 1;
+    object-fit: contain;
+}
 
 
