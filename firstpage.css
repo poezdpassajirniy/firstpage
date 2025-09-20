@@ -195,10 +195,12 @@ header ul li a:hover {
 }
 
 .cafe-info {
+  display: flex;
   color: rgba(252, 242, 242, 1);
   flex-direction: column;
   flex: 1;
   padding: 120px 60px;
+  align-items: center;
 }
 
 .cafe-img {
@@ -214,7 +216,12 @@ header ul li a:hover {
     color: rgba(252, 242, 242, 1);
     padding: 22px 55px;
     font-size: 20px;
+    display: flex;
+    margin-top: 80px ;
+    
 }
+
+
 
 
 
