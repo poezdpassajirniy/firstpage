@@ -1,11 +1,29 @@
 * {
     margin: 0; 
     padding: 0; 
-    font-family: Abhaya Libre Medium;
+    
 }
 
 body {
-    background-color:rgba(205, 193, 183, 0.967) ;
+    background-color:rgba(247, 234, 224, 0.967) ;
+}
+
+.preview {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: #5a0e03;
+    position: relative;
+    z-index: 1;
+    color: aliceblue;
+    justify-content: center;
+}
+
+.preview-title {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
 }
 
 li {
@@ -21,7 +39,7 @@ ul {
 }
 
 header {
-    background-color: rgba(205, 193, 183, 0.967);
+    background-color:rgba(247, 234, 224, 0.967) ;
     padding: 30px 80px;
     display: flex;
     justify-content: space-between;
@@ -66,8 +84,10 @@ header ul li a:hover {
 
 .title {
     color: rgb(255, 255, 255);
+    font-size: 9vw;
     font-size: 12vw;
 }
+
 
 .titles-layout {
     width: 100%;
@@ -96,7 +116,7 @@ header ul li a:hover {
 }
 
 .catalog {
-    background-color: rgba(205, 193, 183, 0.967)  ;
+    background-color:rgba(247, 234, 224, 0.967)  ;
     padding: 100px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -165,9 +185,8 @@ header ul li a:hover {
 }
 
 .logo-line {
-    background-color: rgba(205, 193, 183, 0.967);
+    background-color: rgba(247, 234, 224, 0.967) ;
     width: 100%;
-    
 }
 
 .logos {
@@ -176,7 +195,6 @@ header ul li a:hover {
     flex-wrap: wrap;
     padding: 84px;
     justify-content: space-between;
-    
 }
 
 .Bestsellers {
@@ -190,8 +208,6 @@ header ul li a:hover {
     display: flex;
     background-color: rgba(91, 19, 18, 1);
     align-items: center;
-    
-    
 }
 
 .cafe-info {
@@ -221,7 +237,91 @@ header ul li a:hover {
     
 }
 
+.coffe-score {
+    width: 100%;
+    display: flex;
+    height: 815px;
+    justify-content: center;
+    position: relative;
+}
 
+.rating-cards {
+    display: flex;
+    width: 1164px;
+    position: absolute;
+    padding: 293px 139px;
+    justify-content: space-around;
+}
+
+.rating-card {
+    display: flex;
+    width: 221px;
+    height: 225px;
+    flex-direction: column;
+    
+}
+
+.rating-title {
+   font-size: 15px;
+   color: rgb(83, 43, 11);
+   text-align: center;
+}
+
+.discription {
+    text-align: center;
+    padding: 15px 0px 0px;
+}
+
+.little-logo {
+    flex: 1;
+    object-fit: none;
+}
+
+.little-logo2 {
+    flex: 1;
+    object-fit: contain;
+    padding: 0px 83px; 
+}
+
+.rating-text {
+    flex-direction: column;
+    flex: 1;
+    
+}
+
+.little-logo3 {
+    padding: 0px 67px;
+    flex: 1;
+    object-fit: contain;
+}
+
+.journal {
+    width: 100%;
+    background-color: rgba(91, 19, 18, 1);
+    display: flex;
+    height: 451px;
+}
+
+.journal-title {
+    flex: 1;
+    color: rgba(252, 242, 242, 1) ;
+    font-size: 30px;
+    align-items: flex-start;
+}
+
+.indus-img {
+    flex: 1;
+    object-fit: cover;
+    width: 100%;
+    height: 530px;
+
+}
+
+.journal-btn {
+    background-color: rgba(91, 19, 18, 1);
+    padding: 20px 55px;
+    color: aliceblue;
+}
 
 
 
