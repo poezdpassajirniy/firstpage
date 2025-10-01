@@ -284,7 +284,11 @@ header ul li a:hover {
 
 .journal {
   background-color: rgb(84, 18, 3);
-  height: 530px;
+  height: 451px;
+  display: flex;
+  width: 100%;
+  position: relative;
+  margin-bottom: 300px;
 }
 
 .journal-title {
@@ -295,10 +299,8 @@ header ul li a:hover {
 }
 
 .indus-img {
-  width: 678px;
-  height: 530px;
-  right: 20%;
-  position: absolute;
+  width: 100%px;
+  height: 100%px;
 }
 
 .journal-btn {
@@ -312,11 +314,60 @@ header ul li a:hover {
   justify-content: space-between;
 }
 
+.section-1 {
+  padding: 107px 170px;
+}
+
 .section-2 {
   height: 530px;
+  width: 678px;
+  bottom: 0;
+  object-fit: cover;
+  left: 45%;
+  position: absolute;
+}
+
+.offerings {
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  color: #442711;
+  margin-bottom: 80px;
+}
+
+.Key-offerings {
+  height: 672px;
   width: 100%;
-  justify-content: space-around;
+  margin-bottom: 305px;
+}
+
+.key-conteiner {
   display: flex;
-  z-index: 2;
+  justify-content: space-between;
+  padding: 80px;
+  width: 1271px;
+  height: 497px;
+  object-fit: cover;
+}
+
+.brew-gide {
+  height: 800px;
+  background-color: #5a0e03;
+  padding: 60px;
   position: relative;
+}
+
+.brew-title {
+  color: rgba(252, 242, 242, 1);
+  font-size: 35px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.gide {
+  width: 1062px;
+  height: 593px;
+  object-fit: cover;
+  left: 13%;
+  position: absolute;
 }
